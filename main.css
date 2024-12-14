@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #ffffff;
+}
+.head{
+    height: 70px;
+    width: auto;
+    background-color: #028090;
+}
+.head h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px ;
+    color: #ffffff;
+
+}
+#scissor img{
+    border-radius: 225px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+}
+.choices{
+    display: flex;
+    gap:10%;
+    justify-content: center;
+    margin-top: 60px;
+}
+.choice img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    /* border: 3px solid black; */
+    /* border-radius: 50%; */
+    height: 180px;
+    width: 180px;
+
+}
+#scissor:hover{
+    border-radius: 50%;
+}
+.score-board{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px ;
+    gap: 50%;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 50px;
+}
+#user-score, #guest-score{
+    font-size: 4rem;
+}
+#msg{
+    background-color: #028090;
+    font-size: 30px;
+    display: inline;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width :600px) {
+   .head{
+    width: 410px;
+   }
+   img{
+    height: 130px;
+    width: 120px;
+    margin-left: 20px;
+   }
+   .score-board{
+    margin-left: 80px;
+   }
+   #msg{
+    margin-left: 70px;
+    font-size: 17px;
+   }
+   .choice img:hover{
+    height: 130px;
+    width: 130px;
+   }
+   .head h1{
+    font-size: 30px;
+   }
+   .score-board{
+    font-size: 30px;
+   }
+   #user-score, #guest-score{
+    font-size: 40px;
+   }
+   #msg{
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+   }
+}
