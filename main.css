@@ -77,10 +77,10 @@ img{
     width: auto;
    }
    .choice img{
-    height: 120px;
-    width: 120px;
-    margin-left: 10px;
-       margin-right: 20px
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+     
    }
    .score-board{
     margin-left: 80px;
