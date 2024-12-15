@@ -83,21 +83,21 @@ img{
      
    }
    .score-board{
-    margin-left: 80px;
+    margin-left: 50px;
    }
    #msg{
-    margin-left: 70px;
+    margin-left: 50px;
     font-size: 17px;
    }
    .choice img:hover{
-    height: 130px;
-    width: 130px;
+    height: 110px;
+    width: 110px;
    }
    .head h1{
     font-size: 30px;
    }
    .score-board{
-    font-size: 30px;
+    font-size: 25px;
    }
    #user-score, #guest-score{
     font-size: 40px;
